@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/pracjourn
+# catalog-date 2008-11-30 13:31:17 +0100
+# catalog-license gpl
+# catalog-version 0.4n
 Name:		texlive-pracjourn
 Version:	0.4n
 Release:	1
@@ -47,6 +53,7 @@ revision control, among other small changes.
 #- source
 %doc %{_texmfdistdir}/source/latex/pracjourn/pracjourn.dtx
 %doc %{_texmfdistdir}/source/latex/pracjourn/pracjourn.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ revision control, among other small changes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
