@@ -6,7 +6,7 @@
 # catalog-version 0.4n
 Name:		texlive-pracjourn
 Version:	0.4n
-Release:	7
+Release:	8
 Summary:	Typeset articles for PracTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pracjourn
