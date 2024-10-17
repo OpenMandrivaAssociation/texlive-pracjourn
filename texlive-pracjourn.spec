@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	Typeset articles for PracTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pracjourn
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pracjourn
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pracjourn.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pracjourn.doc.r%{version}.tar.xz
